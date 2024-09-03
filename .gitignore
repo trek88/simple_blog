@@ -1,4 +1,6 @@
 
+simple_cms.code-workspace
+
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php

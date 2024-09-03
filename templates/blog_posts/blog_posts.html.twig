@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Symfony Test</title>
+    <link href="{{ asset('css/simple_blog.css') }}" rel="stylesheet"/>
+</head>
+<body>
+    <div class="mainbody">
+        <h1>Latest Posts</h1>
+        {% for entry in blogEntries %}
+            <div class="blogPost">
+                <p>{{ entry.post_content }}</p>
+                <p class="postAuthor">{{ entry.post_author }}</p>
+            </div>
+        {% endfor %}
+    </div> 
+</body>
+</html>

@@ -1,0 +1,19 @@
+.mainbody {
+    max-width:60em;
+    margin: 2em auto;
+}
+
+.mainbody h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.blogPost {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #000;
+}
+
+.postAuthor {
+    text-align: right;
+    font-size: .9em;
+}
